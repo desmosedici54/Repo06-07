@@ -1,0 +1,33 @@
+html {
+height: 100%;
+margin-left: 210px;
+margin-right: 210px;
+}
+
+h3 {
+font-family: 'Times New Roman', Times, serif;
+color: red;
+text-align: center;
+}
+
+p {
+  color: turquoise;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.item {
+    overflow-wrap: break-word;
+    overflow: auto;
+    text-align: justify;
+}
+
+.element {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    flex: calc(33.33% - 18px);
+    padding: 8px;
+  }
